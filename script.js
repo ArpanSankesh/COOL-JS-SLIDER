@@ -39,7 +39,7 @@ const lerp = (start, end, t) => {
 
 const update = () => {
   currentX = lerp(currentX, targetX, ease);
-  slider.style.transform = `translate(${currentX}px)`;
+  slider.style.transform = `translateX(${currentX}px)`;
   updateScales();
   requestAnimationFrame(update);
 };
