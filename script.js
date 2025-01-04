@@ -47,7 +47,9 @@ const update = () => {
 window.addEventListener("scroll", () => {
   const maxScroll = document.body.scrollHeight - window.innerHeight;
   const scrollProgress = window.scrollY / maxScroll;
-  targetX = -scrollProgress * 6000;
+  // targetX = -scrollProgress * 6000;
+  
+  targetX = -scrollProgress * cards.length * cards[0].offsetWidth;
 });
 
 update();
