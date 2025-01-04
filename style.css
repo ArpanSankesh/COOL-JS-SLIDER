@@ -3,12 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Bebas Neue", serif;
 }
 
 html, body {
-    height: 100vw;
-    width: 1000vh;
+    width: 100vw;
+    height: 1000vh;
     font-family: "Bebas Neue", serif;
     background-color: #000;
 }
